@@ -78,7 +78,8 @@
 #include <cstring>
 #include <condition_variable>
 #include <chrono>
-using namespace std::chrono_literals;
+
+using namespace std::literals::chrono_literals;
 
 namespace grk {
 
