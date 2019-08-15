@@ -79,18 +79,18 @@
 #include <condition_variable>
 #include <chrono>
 
-using namespace std::literals::chrono_literals;
+//using namespace std::literals::chrono_literals;
 
 namespace grk {
 
-std::condition_variable sleep_cv;
+/*std::condition_variable sleep_cv;
 std::mutex sleep_cv_m;
 // val == # of 100ms increments to wait
 int batch_sleep(int val) {
 	std::unique_lock<std::mutex> lk(sleep_cv_m);
 	sleep_cv.wait_for(lk, val * 100ms, [] {return false; });
 	return 0;
-};
+};*/
 
 
 /* -------------------------------------------------------------------------- */
